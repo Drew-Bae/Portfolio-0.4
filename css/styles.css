@@ -22,7 +22,6 @@ h1 {
     font-weight: 300;
     font-size: 64px;
     color: #00498C;
-    margin-bottom: 0;
 }
 
 h2 {
@@ -30,8 +29,6 @@ h2 {
     font-weight: 100;
     font-size: 26px;
     color: #396084;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
   
 body {
@@ -55,13 +52,23 @@ html {
     background: rgba(255, 255, 255, 0.6);
 }
 
+/* Header */
 header {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .makeCenter {
+    margin-top: 57.5%;
     text-align: center;
 }
