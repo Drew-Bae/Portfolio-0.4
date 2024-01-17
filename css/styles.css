@@ -52,6 +52,13 @@ html {
     background: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (min-width: 1024px) {
+    html {
+        background-position: inherit;
+        background-size: 100vw;
+    }   
+}
+
 /* Header */
 header {
     height: 95vh;
@@ -73,6 +80,26 @@ header h2 {
     text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+    header {
+        height: 110vh;
+    }
+
+    header h1 {
+        font-size: 175px;
+    }
+
+    header h2 {
+        font-size: 40px;
+    }
+
+    .material-icons.md-50{ font-size: 80px; }
+
+    .makeCenter {
+        margin-top: 200px;
+    }
+}
+
 /* Card Component */
 .cardContainer {
     margin-left: 20px;
@@ -91,7 +118,7 @@ header h2 {
 
 .imgText {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     right: 10px;
     margin: 0;
     font-size: 26px;
@@ -101,6 +128,52 @@ header h2 {
 
 .whiteText {
     color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .work {
+        background: #fff;
+        padding: 25px 300px;
+    }
+
+    .cardContainer {
+        display: grid;
+        grid-gap: 25px;
+    }
+
+    .card {
+        margin-bottom: 0;
+    }
+
+    .imgText {
+        bottom: 10px;
+    }
+
+    #codecareerguide {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    #dannys {
+        grid-column: 1/3;
+        grid-row: 2/5;
+    }
+
+    #dannysText {
+        bottom: 70px;
+    }
+
+    #gamehub {
+        grid-column: 1/4;
+        grid-row: 5/5;
+    }
+    /*
+    .cardContainer div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    */
 }
 
 /* Social */
@@ -178,6 +251,12 @@ header h2 {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .social {
+        display: none;
+    }
+}
+
 /* Contact */
 .contact {
     height: 496px;
@@ -211,6 +290,12 @@ textarea {
     resize: none;
 }
 
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: none;
+    }
+}
+
 #submit {
     background: #636363;
     color: #fff;
@@ -219,6 +304,66 @@ textarea {
     padding: 0;
     position: absolute;
     right: 15px;
+}
+
+/* Desktop Social + Contact */
+.desktopSocialContact {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .desktopSocialContact {
+        display: initial;
+    }
+
+    .titleBR {
+        display: none   ;
+    }
+
+    .desktopSocial {
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 0;
+        background: #CEFFD9;
+    }
+
+    .desktopSocial h2 {
+        font-size: 32px;
+        margin-bottom: 54px;
+    }
+    
+    .desktopSocial p {
+        font-size: 24px;
+        line-height: 36px;
+        width: 872px;
+        margin: auto;
+        margin-bottom: 54px;
+    }
+
+    .socialContainer {
+        margin-top: 112px;
+    }
+
+    .iconContainer {
+        flex-flow: inherit;
+        width: fit-content;    
+    }
+
+    .iconContainer img {
+        margin: 10px 15px 54px;
+
+    }
+
+    .desktopContact {
+        height: 530px;
+        padding-left: 419px;
+        padding-right: 419px;
+    }
+
+    #submit {
+        width: 210px;
+        right: 432px;
+    }
 }
 
 /* Footer */
