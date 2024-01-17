@@ -148,3 +148,57 @@ header h2 {
 .iconContainer img {
     margin-bottom: 20px;
 }
+
+/* Contact */
+.contact {
+    height: 496px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input {
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: calc(100% - 10px);
+    background: transparent;
+    border: 1px solid #636363;
+    margin-top: 20px;
+}
+
+textarea {
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    margin-top: 20px;
+    padding: 10px 8px;
+    width: calc(100% + 5px);
+    height: 240px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid #636363;
+    resize: none;
+}
+
+#submit {
+    background: #636363;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+}
+
+/* Footer */
+footer {
+    background: #fff;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px;
+    margin: 0;
+}

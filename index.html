@@ -102,6 +102,35 @@
         </div>
         <span class="material-icons md-50"> expand_less </span>
       </section>
+      <section class="contact">
+        <form action="send_email.php" method="post">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Type your message here..."
+            required
+          ></textarea>
+          <br />
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </section>
     </body>
+    <footer><p>© Drew Bae. All rights reserved</p></footer>
   </div>
 </html>
