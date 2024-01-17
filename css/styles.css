@@ -103,4 +103,48 @@ header h2 {
     color: #fff;
 }
 
-/* Body */
+/* Social */
+.social {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+    background: #CEFFD9;
+}
+
+.socialFlex {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.social h2 {
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.social h2:nth-last-child(1){
+    margin-top: 20px;
+}
+
+.social p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.socialContainer {
+    height: 632px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-flow: column;
+    height: fit-content;
+    width: 40px;
+    margin-top: 57px;
+}
+
+.iconContainer img {
+    margin-bottom: 20px;
+}
