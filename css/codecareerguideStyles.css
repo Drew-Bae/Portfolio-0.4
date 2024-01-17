@@ -104,3 +104,57 @@ button {
     border: 2px solid #000;
     background: #fff;
 }
+
+.desktop {
+    display: none;
+}
+
+video {
+    display: none;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .desktop {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 58px;
+        margin-left: 272px;
+        margin-right: 272px;
+    }
+
+    h1 {
+        font-size: 64px;
+        margin-top: 58px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .summary {
+        text-align: left;
+    }
+
+    .paragraph {
+        text-align: left;
+        width: 467px;
+    }
+
+    button {
+        margin-top: 39px;
+    }
+
+    .video {
+        background: #000;
+        height: 448px;
+        margin-top: 153px;
+        margin-left: 272px;
+        margin-right: 272px;
+        margin-bottom: 137px;
+    }
+}
