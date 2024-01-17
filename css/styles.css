@@ -149,6 +149,35 @@ header h2 {
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .socialFlex {
+        display: block;
+        justify-content: inherit;
+        text-align: center;
+    }
+
+    .social p {
+        margin-left: 20%;
+        margin-right: 20%;
+        width: fit-content;
+    }
+
+    .socialContainer {
+        height: auto;
+    }
+
+    .iconContainer {
+        flex-flow: inherit;
+        width: fit-content;
+        margin: auto;       
+    }
+
+    .iconContainer img {
+        margin: 10px 15px 180px;
+
+    }
+}
+
 /* Contact */
 .contact {
     height: 496px;
