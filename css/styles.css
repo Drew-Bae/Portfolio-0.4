@@ -133,7 +133,7 @@ header h2 {
 @media screen and (min-width: 1024px) {
     .work {
         background: #fff;
-        padding: 25px 300px;
+        padding: 25px 400px;
     }
 
     .cardContainer {
@@ -166,6 +166,14 @@ header h2 {
     #gamehub {
         grid-column: 1/4;
         grid-row: 5/5;
+    }
+
+    #moshifyText {
+        font-size: 13px;
+    }
+
+    #csedgeText {
+        font-size: 13px;
     }
     /*
     .cardContainer div {
