@@ -362,6 +362,12 @@ textarea {
     position: absolute;
     right: 15px;
     cursor: pointer;
+
+}
+
+#submit:hover {
+    transition: background 0.3s ease-in-out;
+    background: #000;
 }
 
 /* Desktop Social + Contact */
