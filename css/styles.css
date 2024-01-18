@@ -189,7 +189,9 @@ header h2 {
 @media screen and (min-width: 1024px) {
     .work {
         background: #fff;
-        padding: 25px 500px;
+        padding: 25px;
+        padding-left: 30vw;
+        padding-right: 30vw;
     }
 
     .cardContainer {
