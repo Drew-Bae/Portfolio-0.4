@@ -167,6 +167,10 @@ header h2 {
     color: #fff;
 }
 
+.blackText {
+    color: #000;
+}
+
 .a1 {
     transition: opacity 0.3s ease-in-out;
 }
