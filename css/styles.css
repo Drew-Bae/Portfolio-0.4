@@ -17,6 +17,20 @@
     font-style: italic;
 }
 
+
+.dosis-uniquifier {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
     font-family: "Jua", cursive;
     font-weight: 300;
@@ -35,8 +49,28 @@ body {
     font-family: "ABeeZee", sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 /* Icons */
-.material-icons {color: #396084;}
+.material-icons {
+    color: #396084;
+    cursor: pointer;
+}
 .material-icons.md-50{ font-size: 50px; }
 
 /* Content */
@@ -46,6 +80,7 @@ html {
     background-attachment: fixed;
     background-size: 1266px 100vh;
     background-position: -208px 0px;
+    scroll-behavior: smooth;
 }
 
 .transparent {
@@ -107,9 +142,11 @@ header h2 {
 }
 
 .card {
+    display: inline-block;
     position: relative;
     text-align: center;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .imgSize{
@@ -118,7 +155,7 @@ header h2 {
 
 .imgText {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 10px;
     margin: 0;
     font-size: 26px;
@@ -128,6 +165,21 @@ header h2 {
 
 .whiteText {
     color: #fff;
+}
+
+.a1 {
+    transition: opacity 0.3s ease-in-out;
+}
+.a2 {
+    color: red;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.card:hover .a1 {
+    opacity: 0;
+}
+.card:hover .a2 {
+    opacity: 1;
 }
 
 @media screen and (min-width: 1024px) {
@@ -157,10 +209,6 @@ header h2 {
     #dannys {
         grid-column: 1/3;
         grid-row: 2/5;
-    }
-
-    #dannysText {
-        bottom: 70px;
     }
 
     #gamehub {
@@ -228,6 +276,7 @@ header h2 {
 
 .iconContainer img {
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -312,6 +361,7 @@ textarea {
     padding: 0;
     position: absolute;
     right: 15px;
+    cursor: pointer;
 }
 
 /* Desktop Social + Contact */

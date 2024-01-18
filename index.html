@@ -5,16 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Dosis:wght@200..800&family=Jua&display=swap"
       rel="stylesheet"
@@ -27,7 +17,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Drew Bae</title>
   </head>
-  <div class="transparent">
+  <div id="top" class="transparent">
     <header>
       <div class="makeCenter">
         <h1>Hello.</h1>
@@ -35,51 +25,77 @@
           I'm Drew Bae. UX Designer<br />
           & Web Developer.
         </h2>
-        <span class="material-icons md-50"> expand_more </span>
+        <a href="#work"
+          ><span class="material-icons md-50"> expand_more </span></a
+        >
       </div>
     </header>
     <body>
-      <section class="work">
+      <section id="work" class="work">
         <div class="cardContainer">
-          <div id="codecareerguide" class="card">
-            <img
-              class="imgSize"
-              src="images/codecareerguideBG.jpg"
-              alt="Code Career Guide link to case study"
-            />
-            <h3 class="imgText">UX Designer</h3>
-          </div>
-          <div id="dannys" class="card">
-            <img
-              src="images/dannysBG.jpg"
-              alt="Danny's link to case study"
-              class="imgSize"
-            />
-            <h3 id="dannysText" class="imgText whiteText">UX Designer</h3>
-          </div>
-          <div id="gamehub" class="card">
-            <img
-              src="images/gamehubBG.jpg"
-              alt="GameHub link to site"
-              class="imgSize"
-            />
-            <h3 class="imgText whiteText">Web Developer</h3>
-          </div>
-          <div class="card">
-            <img
-              src="images/moshifyBG.jpg"
-              alt="Moshify link to site"
-              class="imgSize"
-            />
-            <h3 id="moshifyText" class="imgText whiteText">Web Developer</h3>
-          </div>
+          <a id="codecareerguide" href="codecareerguide.html">
+            <div class="card">
+              <img
+                class="imgSize"
+                src="images/codecareerguideBG.jpg"
+                alt="Code Career Guide link to case study"
+              />
+              <h3 class="imgText a1">UX Designer</h3>
+              <h3 class="imgText a2">Code Career Guide</h3>
+            </div>
+          </a>
+          <a id="dannys" href="dannys.html">
+            <div class="card">
+              <img
+                src="images/dannysBG.jpg"
+                alt="Danny's link to case study"
+                class="imgSize"
+              />
+              <h3 id="dannysText" class="imgText whiteText a1">UX Designer</h3>
+              <h3 class="imgText whiteText a2">Danny's</h3>
+            </div>
+          </a>
+          <a
+            id="gamehub"
+            href="https://game-hub-lovat-gamma.vercel.app/"
+            target="_blank"
+          >
+            <div class="card">
+              <img
+                src="images/gamehubBG.jpg"
+                alt="GameHub link to site"
+                class="imgSize"
+              />
+              <h3 class="imgText whiteText a1">Web Developer</h3>
+              <h3 class="imgText whiteText a2">GameHub</h3>
+            </div>
+          </a>
+          <a
+            href="https://moshified-model-e-commerce.netlify.app/#"
+            target="_blank"
+          >
+            <div class="card">
+              <img
+                src="images/moshifyBG.jpg"
+                alt="Moshify link to site"
+                class="imgSize"
+              />
+              <h3 id="moshifyText" class="imgText whiteText a1">
+                Web Developer
+              </h3>
+              <h3 class="imgText whiteText a2">Moshify</h3>
+            </div>
+          </a>
           <div class="card">
             <img
               src="images/csedgeBG.jpg"
               alt="Work in progress"
               class="imgSize"
             />
-            <h3 id="csedgeText" class="imgText whiteText">Original Creator</h3>
+            <h3 id="csedgeText" class="imgText whiteText a1">
+              Original Creator
+            </h3>
+            <h3 class="imgText whiteText a2">CSEdge</h3>
           </div>
         </div>
       </section>
@@ -96,15 +112,31 @@
             <h2>Let's work together.</h2>
           </div>
           <div class="iconContainer">
-            <img src="icons/linkedin.svg" alt="LinkedIn" />
-            <img src="icons/instagram.svg" alt="Instagram" />
-            <img src="icons/github.svg" alt="GitHub" />
-            <img src="icons/dribbble.svg" alt="Dribbble" />
-            <img src="icons/behance.svg" alt="Behance" />
-            <img src="icons/x.svg" alt="X" />
+            <a
+              href="https://www.linkedin.com/in/drew-bae-744919202/"
+              target="_blank"
+              ><img src="icons/linkedin.svg" alt="LinkedIn"
+            /></a>
+            <a href="https://www.instagram.com/drewbae_ig/" target="_blank"
+              ><img src="icons/instagram.svg" alt="Instagram"
+            /></a>
+            <a href="https://github.com/Drew-Bae" target="_blank"
+              ><img src="icons/github.svg" alt="GitHub"
+            /></a>
+            <a href="https://dribbble.com/DrewBae" target="_blank"
+              ><img src="icons/dribbble.svg" alt="Dribbble"
+            /></a>
+            <a href="https://www.behance.net/drewbae1" target="_blank"
+              ><img src="icons/behance.svg" alt="Behance"
+            /></a>
+            <a href="https://twitter.com/DrewBae_WebDev" target="_blank"
+              ><img src="icons/x.svg" alt="X"
+            /></a>
           </div>
         </div>
-        <span class="material-icons md-50"> expand_less </span>
+        <a href="#top"
+          ><span class="material-icons md-50"> expand_less </span></a
+        >
       </section>
       <section class="contact">
         <form action="send_email.php" method="post">
@@ -150,16 +182,34 @@
               <h2>Let's work together.</h2>
             </div>
             <div class="iconContainer">
-              <img src="icons/linkedin.svg" alt="LinkedIn" />
-              <img src="icons/instagram.svg" alt="Instagram" />
-              <img src="icons/github.svg" alt="GitHub" />
-              <img src="icons/dribbble.svg" alt="Dribbble" />
-              <img src="icons/behance.svg" alt="Behance" />
-              <img src="icons/x.svg" alt="X" />
+              <a
+                href="https://www.linkedin.com/in/drew-bae-744919202/"
+                target="_blank"
+                ><img src="icons/linkedin.svg" alt="LinkedIn"
+              /></a>
+              <a href="https://www.instagram.com/drewbae_ig/" target="_blank"
+                ><img src="icons/instagram.svg" alt="Instagram"
+              /></a>
+              <a href="https://github.com/Drew-Bae" target="_blank"
+                ><img src="icons/github.svg" alt="GitHub"
+              /></a>
+              <a href="https://dribbble.com/DrewBae" target="_blank"
+                ><img src="icons/dribbble.svg" alt="Dribbble"
+              /></a>
+              <a href="https://www.behance.net/drewbae1" target="_blank"
+                ><img src="icons/behance.svg" alt="Behance"
+              /></a>
+              <a href="https://twitter.com/DrewBae_WebDev" target="_blank"
+                ><img src="icons/x.svg" alt="X"
+              /></a>
             </div>
           </div>
           <section class="desktopContact">
-            <form action="send_email.php" method="post">
+            <form
+              action="mailto:drewbae912@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
               <input
                 type="text"
                 id="name"
@@ -186,7 +236,9 @@
               <input id="submit" type="submit" value="Submit" />
             </form>
           </section>
-          <span class="material-icons md-50"> expand_less </span>
+          <a href="#top"
+            ><span class="material-icons md-50"> expand_less </span></a
+          >
         </section>
       </section>
     </body>
