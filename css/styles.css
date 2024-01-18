@@ -111,7 +111,7 @@ header h2 {
 }
 
 .makeCenter {
-    margin-top: 257px;
+    margin: auto;
     text-align: center;
 }
 
@@ -121,14 +121,14 @@ header h2 {
     }
 
     header h1 {
-        font-size: 175px;
+        font-size: 7.8em;
     }
 
     header h2 {
-        font-size: 40px;
+        font-size: 1.67em;
     }
 
-    .material-icons.md-50{ font-size: 80px; }
+    .material-icons.md-50{ font-size: 60px; }
 
     .makeCenter {
         margin-top: 200px;
