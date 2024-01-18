@@ -157,11 +157,10 @@ video {
     }
 
     .video {
-        background: #000;
+        display: inherit;
         height: 448px;
-        margin-top: 153px;
-        margin-left: 272px;
-        margin-right: 272px;
-        margin-bottom: 137px;
+        margin: auto;
+        margin-top: 58px;
+        margin-bottom: 20px;
     }
 }
