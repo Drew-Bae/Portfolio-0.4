@@ -124,7 +124,7 @@ video {
 @media screen and (min-width: 1024px) {
     .desktop {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 58px;
         margin-left: 272px;
         margin-right: 272px;
